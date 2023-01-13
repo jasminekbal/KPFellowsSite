@@ -14,13 +14,13 @@ function App() {
           <div className='App-navlinks'>
           <a className='App-navlink' href='https://www.linkedin.com/in/jasminekbal/'> LinkedIn </a>
           
-          <a className='App-navlink'> Code</a>
+          <a className='App-navlink' href="https://www.linkedin.com/in/jasminekbal/"> Code</a>
           </div>
           
         </div>
 
         <div className='App-words'>
-        <h1 className="App-header">Hello 👋, I’m Jasmine</h1>
+        <h1 className="App-header">Hello <span role="img" aria-label="Wave">👋</span>, I’m Jasmine</h1>
         <p className="App-subheading"> I’m a software developer fascinated by the intersection of technology, finance and entrepreneurship.   </p>
         </div>
 
