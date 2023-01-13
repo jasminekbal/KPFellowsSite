@@ -14,7 +14,7 @@ function App() {
           <div className='App-navlinks'>
           <a className='App-navlink' href='https://www.linkedin.com/in/jasminekbal/'> LinkedIn </a>
           
-          <a className='App-navlink' href="https://www.linkedin.com/in/jasminekbal/"> Code</a>
+          <a className='App-navlink' href="https://www.linkedin.com/in/jasminekbal/"> Code for this Site</a>
           </div>
           
         </div>

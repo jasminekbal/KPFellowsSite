@@ -31,7 +31,16 @@ font-style: normal;
 font-size: 20px;
 line-height: 50px;
 color: #1C428A;
-width: 200px;
+width: 320px;
+}
+
+.App-navlink{
+  color: #1C428A;
+  text-decoration: none;
+}
+
+.App-navlink:hover{
+  text-decoration: underline;
 }
 
 .App-words {
@@ -90,6 +99,7 @@ width: 200px;
 
 .App-promptLink:hover{
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .App-link {
