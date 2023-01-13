@@ -27,10 +27,8 @@ function App() {
         
 
         <div className='App-promptInfo'>
+          <div className='App-infoTitleWrapper'>
           <div className='App-infoTitle'>
-
-          
-          <div >
           Here are my responses to the personal statements for the KP fellows program:
           </div>
           <div className='App-promptLinks'>
