@@ -18,7 +18,7 @@
   height: 50px;
   background-color: #FFD8D8;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .App-navlinks{
