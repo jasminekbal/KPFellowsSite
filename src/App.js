@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react';
 import { useState, } from 'react';
 
@@ -33,7 +32,7 @@ function App() {
           <span  className='App-promptLink' onClick={(e)=> setPromptNum("1")}>Problem Statement #1</span> | <span  className='App-promptLink' onClick={(e)=> setPromptNum("2")}>Problem Statement #2</span>
           </div>
 
-        { promptNum == "1" &&
+        { promptNum === "1" &&
           <div className='App-prompt'>
             <div className='App-promptTitle'>What impact do you want to have on the world and why?</div>
             <div className='App-promptText'> There's no doubt that pursuing a career in technology has been an empowering experience. I’ve learned how to take a problem, analyze it, design solutions and work towards a solution that can have an impact on the world around me. I love immersing myself in building, whether it be feature scoping, design meetings or the technical implementation. I am grateful to the many communities that provided spaces for me to grow in tech and spark my curiosity to explore further.  </div>
@@ -41,7 +40,7 @@ function App() {
             <div className='App-promptText'> I want to help build more such communities that expose others to a variety of opportunities and allow like minded individuals to meet one another and inspire each other to reach their goals. I’ve seen first hand how these communities have empowered me to build and work towards solving interesting problems and would love to provide others with these opportunities so they have the resources to reach their full potential.</div>
           </div>}
 
-        { promptNum == "2" && 
+        { promptNum === "2" && 
           <div className='App-prompt'>
             <div className='App-promptTitle'>Describe your most meaningful experience(s) and why they matter to you.</div>
             <div className='App-promptText'> My most meaningful experiences include my first technical internship at a 50 person textiles startup, Sheertex, and co-founding TechNova, an organization that aims to promote gender equity in tech. </div>
