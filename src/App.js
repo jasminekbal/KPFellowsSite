@@ -19,10 +19,12 @@ function App() {
           
         </div>
 
+        <div className='App-body'>
         <div className='App-words'>
+          
         <h1 className="App-header">Hello <span role="img" aria-label="Wave">👋</span>, I’m Jasmine</h1>
         <p className="App-subheading"> I’m a software developer fascinated by the intersection of technology, finance and entrepreneurship.   </p>
-        </div>
+        
 
         <div className='App-promptInfo'>
           <div>
@@ -36,7 +38,7 @@ function App() {
           <div className='App-prompt'>
             <div className='App-promptTitle'>What impact do you want to have on the world and why?</div>
             <div className='App-promptText'> There's no doubt that pursuing a career in technology has been an empowering experience. I’ve learned how to take a problem, analyze it, design solutions and work towards a solution that can have an impact on the world around me. I love immersing myself in building, whether it be feature scoping, design meetings or the technical implementation. I am grateful to the many communities that provided spaces for me to grow in tech and spark my curiosity to explore further.  </div>
-            <div className='App-promptText'> Being an executive for Waterloo Women in Computer Science I’ve witnessed the importance of having mentors and seeing others similar to you succeed in tech. Participating in organizations such as UW Start ups and Socratica - a coworking community- I was exposed to the world of venture capital, start ups and it sparked my interest in entrepreneurship and introduced me to additional possibilities and applications of my technical skills. After this I dove into understanding venture capital by participating in the public RippleX Fellowship and researching startups. </div>
+            <div className='App-promptText'> Being an executive for Waterloo Women in Computer Science I’ve witnessed the importance of having mentors and seeing others similar to you succeed in tech. Participating in organizations such as UW Start Ups and Socratica - a coworking community- I was exposed to the world of venture capital, start ups and it sparked my interest in entrepreneurship and introduced me to additional possibilities and applications of my technical skills. After this I dove into understanding venture capital by participating in the public RippleX Fellowship and researching startups. </div>
             <div className='App-promptText'> I want to help build more such communities that expose others to a variety of opportunities and allow like minded individuals to meet one another and inspire each other to reach their goals. I’ve seen first hand how these communities have empowered me to build and work towards solving interesting problems and would love to provide others with these opportunities so they have the resources to reach their full potential.</div>
           </div>}
 
@@ -49,6 +51,8 @@ function App() {
             <div className='App-promptText'> These experiences empowered me to continue learning and growing my skills, and sparked my interest in startups, entrepreneurship and in building communities. I’ve been inspired to use the intersection between my interests and technical background to find creative solutions to problems around me. </div>
           </div>}
         </div> 
+        </div>
+        </div>
         
     </div>
   );

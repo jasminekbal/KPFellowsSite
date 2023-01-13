@@ -3,15 +3,11 @@
   background-color: #FFFDF8;
   font-family: 'Quicksand', sans-serif;
   color: black;
+  
 }
 
 .App-navlink{
   display: block;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App-navbar{
@@ -19,6 +15,12 @@
   background-color: #FFD8D8;
   display: flex;
   justify-content: flex-end;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .App-navlinks{
@@ -44,8 +46,7 @@ width: 320px;
 }
 
 .App-words {
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 1156px;
 }
 
 .App-subheading {
@@ -53,6 +54,7 @@ width: 320px;
   font-size: 32px;
   width: 800px;
   margin-bottom: 54px;
+  padding-left: 16px;
 }
 
 .App-promptLinks{
@@ -73,10 +75,12 @@ width: 320px;
   font-family: 'Roboto', sans-serif;
   font-size: 46px;
   margin-top: 150px;
+  padding-left: 16px;
 }
 
 .App-prompt{
-  padding: 20px;
+  width: 70%;
+  padding: 16px;
   background-color: #FFEDED;
   border-radius: 15px;
   width: 940px;
@@ -84,7 +88,7 @@ width: 320px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .App-promptTitle {
