@@ -27,12 +27,17 @@ function App() {
         
 
         <div className='App-promptInfo'>
-          <div>
+          <div className='App-infoTitle'>
+
+          
+          <div >
           Here are my responses to the personal statements for the KP fellows program:
           </div>
           <div className='App-promptLinks'>
           <span  className='App-promptLink' onClick={(e)=> setPromptNum("1")}>Problem Statement #1</span> | <span  className='App-promptLink' onClick={(e)=> setPromptNum("2")}>Problem Statement #2</span>
           </div>
+          </div>
+          
 
         { promptNum === "1" &&
           <div className='App-prompt'>
